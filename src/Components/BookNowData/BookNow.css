@@ -1,0 +1,58 @@
+.booknow .info-box {
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+  }
+  .booknow .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+  }
+  .booknow .info-box h3 {
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  .booknow .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .booknow .php-email-form {
+    background: #fafbff;
+    padding: 30px;
+    height: 100%;
+  }
+
+  .booknow .php-email-form input{
+    padding: 10px 15px;
+  }
+  .booknow .php-email-form .button {
+    background: #4154f1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+  .booknow .php-email-form .button:hover {
+    background: #5969f3;
+  }
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
