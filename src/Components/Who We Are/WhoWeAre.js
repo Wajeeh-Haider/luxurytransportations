@@ -7,7 +7,6 @@ const WhoWeAre = () => {
       <section id="about" className="about">
       <div className="container" data-aos="fade-up">
         <div className="row gx-0">
-
           <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div className="content">
               <h3>Who We Are</h3>
@@ -24,12 +23,10 @@ const WhoWeAre = () => {
             </div>
           </div>
           <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" className="img-fluid" alt=""/>
+            <img src="assets/img/about.jpg" className="img-fluid" alt="altPictures"/>
           </div>
-
         </div>
       </div>
-
     </section>
   </div>;
 };

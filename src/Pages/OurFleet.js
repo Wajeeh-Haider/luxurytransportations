@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer'
 import Navbar from '../Components/Navbar/Navbar'
 
 const OurFleet = () => {
+  document.title = 'Fleet-Luxury Transportations';
   return (
     <div>
         <Navbar/>   

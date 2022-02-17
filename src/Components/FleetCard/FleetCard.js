@@ -16,10 +16,10 @@ const FleetCard = () => {
           <p>Our Fleet</p>
         </header>
         <div className="row">
-          {Data.map((elem) => {
-            const { id, title, description, imgSrc } = elem;
+          {Data.map((elem , i) => {
+            const { title, description, imgSrc } = elem;
             return (
-              <div className="col-md-6 my-3 " key={id}>
+              <div className="col-md-6 my-3 " key={i}>
                 <div
                   className="card shadow-lg p-4 border-0"
                   style={{
@@ -38,7 +38,6 @@ const FleetCard = () => {
                     <div className="col-md-6 my-2" style={imageStyling}>
                       <img
                         src={imgSrc}
-                        
                         className="img-fluid rounded"
                         alt="OurFleet"
                       />

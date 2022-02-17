@@ -57,42 +57,39 @@ import "./Navbar.css";
 const Navbar = () => {
   
   const [nav, setnav] = useState(false);
-  // const [darkMode, setdarkMode] = useState(false);
+  const [Text, setText] = useState('Luxury Transportations');
+  const [screenSize, setscreenSize] = useState(null);
+  useEffect(() => {
+      const handleResize = () => setscreenSize(window.innerWidth);
+      window.addEventListener('resize' , handleResize);
+      handleResize();
+      return () => window.removeEventListener('resize' , handleResize)
+  }, []);
+
+  useEffect(() => {   
+    if(screenSize<=435){
+      setText('LT')
+    }
+    else{
+      setText('Luxury Transportations')
+    }
+  }, [screenSize]);
   return (
     <>
       <header id="header" className="header">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
        <NavLink to="/" className="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt=""/>
-        <span>Luxury Transportations</span>
+        <img src="assets/img/logo.png" alt="altPictures"/>
+        <span>{Text}</span>
       </NavLink>
-
       <nav id="navbar" className={`navbar  ${nav ? 'navbar-mobile position-fixed' : null}`}>
         <ul>
           <li> <NavLink to="/" className="nav-link scrollto">Home</NavLink></li>
           <li> <NavLink to="/about" className="nav-link scrollto" >About</NavLink></li>
           <li> <NavLink to="/services" className="nav-link scrollto" >Services</NavLink></li>
           <li> <NavLink to="/our-fleet" className="nav-link scrollto" >Our fleet</NavLink></li>
-          {/* <li> <NavLink to="/blogs">Blog</NavLink></li> */}
           <li> <NavLink to="/contact-us" className="nav-link scrollto">Contact</NavLink></li>
           <li> <NavLink to="/booknow" className="getstarted scrollto text-white">Book Now</NavLink></li>
-          {/* <li className="dropdown"> <NavLink to="" ><span>Drop Down</span> <i className="bi bi-chevron-down"></i></NavLink>
-            <ul>
-              <li> <NavLink to=""  >Drop Down 1</NavLink></li>
-              <li className="dropdown"> <NavLink to=""  ><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></NavLink>
-                <ul>
-                  <li> <NavLink to="" >Deep Drop Down 1</NavLink></li>
-                  <li> <NavLink to="" >Deep Drop Down 2</NavLink></li>
-                  <li> <NavLink to="" >Deep Drop Down 3</NavLink></li>
-                  <li> <NavLink to="" >Deep Drop Down 4</NavLink></li>
-                  <li> <NavLink to="" >Deep Drop Down 5</NavLink></li>
-                </ul>
-              </li>
-              <li> <NavLink to=""  >Drop Down 2</NavLink></li>
-              <li> <NavLink to=""  >Drop Down 3</NavLink></li>
-              <li> <NavLink to=""  >Drop Down 4</NavLink></li>
-            </ul>
-          </li> */}
         </ul>
         <i className={`bi mobile-nav-toggle ${nav ? 'bi-x' : 'bi-list'} overflow-hidden`} onClick={()=>setnav(!nav)}></i>
       </nav>

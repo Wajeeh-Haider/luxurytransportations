@@ -12,7 +12,7 @@ const BlogsData = () => {
             <article className="entry">
 
               <div className="entry-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" className="img-fluid"/>
+                <img src="assets/img/blog/blog-1.jpg" alt="altPictures" className="img-fluid"/>
               </div>
 
               <h2 className="entry-title">
@@ -40,7 +40,7 @@ const BlogsData = () => {
             </article>
             <article className="entry">
               <div className="entry-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" className="img-fluid"/>
+                <img src="assets/img/blog/blog-2.jpg" alt="altPictures" className="img-fluid"/>
               </div>
               <h2 className="entry-title">
                 <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
@@ -61,7 +61,7 @@ const BlogsData = () => {
             </article>
             <article className="entry">
               <div className="entry-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" className="img-fluid"/>
+                <img src="assets/img/blog/blog-3.jpg" alt="altPictures" className="img-fluid"/>
               </div>
               <h2 className="entry-title">
                 <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
@@ -83,7 +83,7 @@ const BlogsData = () => {
             </article>
             <article className="entry">
               <div className="entry-img">
-                <img src="assets/img/blog/blog-4.jpg" alt="" className="img-fluid"/>
+                <img src="assets/img/blog/blog-4.jpg" alt="altPictures" className="img-fluid"/>
               </div>
               <h2 className="entry-title">
                 <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
@@ -116,31 +116,31 @@ const BlogsData = () => {
               <h3 className="sidebar-title">Recent Posts</h3>
               <div className="sidebar-item recent-posts">
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-1.jpg" alt=""/>
+                  <img src="assets/img/blog/blog-recent-1.jpg" alt="altPictures"/>
                   <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-2.jpg" alt=""/>
+                  <img src="assets/img/blog/blog-recent-2.jpg" alt="altPictures"/>
                   <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-3.jpg" alt=""/>
+                  <img src="assets/img/blog/blog-recent-3.jpg" alt="altPictures"/>
                   <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-4.jpg" alt=""/>
+                  <img src="assets/img/blog/blog-recent-4.jpg" alt="altPictures"/>
                   <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-5.jpg" alt=""/>
+                  <img src="assets/img/blog/blog-recent-5.jpg" alt="altPictures"/>
                   <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>

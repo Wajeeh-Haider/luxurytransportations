@@ -20,7 +20,7 @@ const Counter = () => {
             <div className="count-box">
               <i className="bi bi-journal-richtext" style={{color: '#ee6c20'}}></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">100+</span>
                 <p>Projects</p>
               </div>  
             </div>
@@ -40,7 +40,7 @@ const Counter = () => {
             <div className="count-box">
               <i className="bi bi-people" style={{color: "#bb0852"}}></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter">20+</span>
                 <p>Hard Workers</p>
               </div>
             </div>

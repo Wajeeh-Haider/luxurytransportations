@@ -5,8 +5,8 @@
     height: 100%;
   }
   .values .box img {
-    padding: 30px 50px;
-    transition: 0.5s;
+    padding: 30px 20px;
+    transition: 0.2s;
     transform: scale(1.1);
   }
   .values .box h3 {
@@ -20,5 +20,6 @@
   }
   .values .box:hover img {
     transform: scale(1);
+
   }
   

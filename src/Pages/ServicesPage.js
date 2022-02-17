@@ -5,6 +5,8 @@ import Navbar from "../Components/Navbar/Navbar";
 import Services from "../Components/Services/Services";
 
 const ServicesPage = () => {
+  document.title = 'Services-Luxury Transportations';
+
   return (
     <div>
       <Navbar />

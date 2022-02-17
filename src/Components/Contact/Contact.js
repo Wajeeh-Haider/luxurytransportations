@@ -3,9 +3,7 @@ import './Contact.css';
 const Contact = () => {
   return <div>
   <section id="contact" className="contact">
-
 <div className="container" data-aos="fade-up">
-
   <header className="section-header">
     <h2>Contact</h2>
     <p>Contact Us</p>
@@ -26,14 +24,14 @@ const Contact = () => {
           <div className="info-box">
             <i className="bi bi-telephone"></i>
             <h3>Call Us</h3>
-            <p>+1 5589 55488 55<br/>+1 6678 254445 41</p>
+            <p>469) 900 1002</p>
           </div>
         </div>
         <div className="col-md-6">
           <div className="info-box">
             <i className="bi bi-envelope"></i>
             <h3>Email Us</h3>
-            <p>info@example.com<br/>contact@example.com</p>
+            <p>contact@luxurytransportation.com<br/>info@luxurytransportation.com</p>
           </div>
         </div>
         <div className="col-md-6">
@@ -53,7 +51,6 @@ const Contact = () => {
           <div className="col-md-6">
             <input type="text" name="name" className="form-control" placeholder="Your Name" required/>
           </div>
-
           <div className="col-md-6 ">
             <input type="email" className="form-control" name="email" placeholder="Your Email" required/>
           </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './Features.css';
 
 const Features = () => {
@@ -16,16 +15,15 @@ const Features = () => {
   <div className="row">
 
     <div className="col-lg-6">
-      <img src="assets/img/features1.png" className="img-fluid" alt=""/>
+      <img src="assets/img/FeaturesImage.jpg" className="img-fluid" alt="altPictures"/>
     </div>
 
     <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
       <div className="row align-self-center gy-4">
-
         <div className="col-md-6" data-aos="zoom-out" data-aos-delay="200">
           <div className="feature-box d-flex align-items-center">
             <i className="bi bi-check"></i>
-            <h3>Comfort</h3>
+            <h3>Your security & comfort is our priority</h3>
           </div>
         </div>
 
@@ -36,7 +34,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+        <div className="col-md-6" data-aos="zoom-out" data-aos-delay="200">
           <div className="feature-box d-flex align-items-center">
             <i className="bi bi-check"></i>
             <h3>Full bar, leather seating, tinted windows</h3>
@@ -63,94 +61,18 @@ const Features = () => {
             <h3> LCD TVs and fiber optic lighting</h3>
           </div>
         </div>
-
       </div>
     </div>
-
   </div> 
-
-  {/* <div className="row feture-tabs" data-aos="fade-up">
-    <div className="col-lg-6">
-      <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
-
-
-      <ul className="nav nav-pills mb-3">
-        <li>
-           <Link to="/" className="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</Link>
-        </li>
-        <li>
-           <Link to="/" className="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</Link>
-        </li>
-        <li>
-           <Link to="/" className="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</Link>
-        </li>
-      </ul>
-
-
-      <div className="tab-content">
-
-        <div className="tab-pane fade show active" id="tab1">
-          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-          </div>
-          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Incidunt non veritatis illum ea ut nisi</h4>
-          </div>
-          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-        </div>
-
-
-        <div className="tab-pane fade show" id="tab2">
-          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-          </div>
-          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Incidunt non veritatis illum ea ut nisi</h4>
-          </div>
-          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-        </div>
-
-
-        <div className="tab-pane fade show" id="tab3">
-          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-          </div>
-          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-          <div className="d-flex align-items-center mb-2">
-            <i className="bi bi-check2"></i>
-            <h4>Incidunt non veritatis illum ea ut nisi</h4>
-          </div>
-          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-        </div>
-
-
-      </div>
-
-    </div>
-
-    <div className="col-lg-6">
-      <img src="assets/img/features-2.png" className="img-fluid" alt=""/>
-    </div>
-
-  </div> */}
-
-
   <div className="row feature-icons" data-aos="fade-up">
     <h3 className='mb-5'>Why Choose Us?</h3>
 
     <div className="row">
       <div className="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-        <img src="assets/img/features-3.png" className="img-fluid p-4" alt=""/>
+        <img src="assets/img/WhyChooseUs.jpeg" className="img-fluid p-4" alt="altPictures"
+        style={{borderRadius:'40px 0px 40px'}}
+
+        />
       </div>
       <div className="col-lg-8 d-flex content">
         <div className="row align-self-center gy-4">
@@ -184,12 +106,9 @@ const Features = () => {
           </div>
         </div>
       </div>
-
     </div>
-
   </div>
   {/* <!-- End Feature Icons --> */}
-
 </div>
 
 </section>

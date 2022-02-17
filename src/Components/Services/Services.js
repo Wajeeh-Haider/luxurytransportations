@@ -53,7 +53,7 @@ const Services = () => {
             <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
-              data-aos-delay="400"
+              data-aos-delay="200"
             >
               <div className="service-box green">
                 <i className="ri-discuss-line icon"></i>
@@ -144,7 +144,7 @@ const Services = () => {
                     <div className="card border-0 shadow-sm my-3">
                         <div className="card-body p-3">
                             <div className="card-img-top">
-                                <img src={imgSrc} alt="" className="img-fluid" style={{borderRadius:'12px 0px 12px'}}/>
+                                <img src={imgSrc} alt="altPictures" className="img-fluid" style={{borderRadius:'12px 0px 12px'}}/>
                             </div>
                             <div className="card-title my-3">
                             <h3>{title}</h3>

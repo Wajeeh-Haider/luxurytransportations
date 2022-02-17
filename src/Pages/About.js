@@ -7,6 +7,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import WhoWeAre from '../Components/Who We Are/WhoWeAre'
 
 const About = () => {
+  document.title = 'About-Luxury Transportations';
   return (
     <div>
       <Navbar/>

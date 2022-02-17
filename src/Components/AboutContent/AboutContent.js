@@ -6,7 +6,7 @@ const AboutContent = () => {
       <div className="container mt-5">
         <div className="row p-0 m-0">
           <div className="col-md-6 d-flex justify-content-center align-items-center">
-              <img src="assets/img/aboutcontent.jpg" className="img-fluid" alt="" />
+              <img src="assets/img/aboutcontent.jpg" className="img-fluid" alt="altPictures" />
           </div>
           <div className="col-md-6">
             <div className="card border-0 shadow-lg p-4" style={{borderRadius: '12px' , backgroundColor:'#F6F9FF'}}>
@@ -14,7 +14,7 @@ const AboutContent = () => {
                 <div className="card-text">
                 <h2 style={{color:'#012970'}}>Our best Luxury Transportations Service</h2>
                   <p>
-                    At Met Limo of Boston, we have an exceptional fleet of
+                    At Luxury Transportations, we have an exceptional fleet of
                     luxury vehicles ready and waiting to drive you in style and
                     class. We have luxury sedans, black stretch limousine, white
                     stretch limousine, stretch hummer, luxury motor coach, party

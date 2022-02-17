@@ -1,11 +1,16 @@
 import React from "react";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore  ,{Autoplay} from 'swiper';
+import 'swiper/css';
+
 const HeroSection = () => {
+  SwiperCore.use([Autoplay])
   const hero = {
     background: `url('assets/img/hero-bg.png') top center no-repeat`,
   };
-
+  
   return (
     <div>
       <section
@@ -14,10 +19,10 @@ const HeroSection = () => {
         className="hero d-flex align-items-center"
       >
         <div className="container">
-          <div className="row">
+          <div className="row " style={{display:'flex' , justifyContent:'center' }}>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <h1 data-aos="fade-up">Welcome to Luxury Transportations.</h1>
-              <h2 data-aos="fade-up" data-aos-delay="400">
+              <h2 data-aos="fade-up" data-aos-delay="200">
                 Enjoy the luxury of a lifetime in our brand New Range Of
                 Limousines. With us, you don’t have to worry about safety at
                 all! Our impeccable safety records ensure you enjoy the time of
@@ -40,11 +45,48 @@ const HeroSection = () => {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
+            <Swiper 
+            loop={true}
+            autoplay={{ delay: 1000,
+              disableOnInteraction: false
+             }}
+            >
+              <SwiperSlide>
               <img
-                src={`assets/img/hero-img.png`}
+                src={`assets/img/HeroImage2.jpg`}
                 className="img-fluid"
-                alt=""
+                alt="heroSliderImage"
               />
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+                src={`assets/img/HeroImage4.jpg`}
+                className="img-fluid"
+                alt="heroSliderImage"
+              />
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+                src={`assets/img/HeroImage6.jpg`}
+                className="img-fluid"
+                alt="heroSliderImage"
+              />
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+                src={`assets/img/HeroImage7.jpg`}
+                className="img-fluid"
+                alt="heroSliderImage"
+              />
+              </SwiperSlide>
+              <SwiperSlide>
+              <img
+                src={`assets/img/sprinter-van.jpg`}
+                className="img-fluid"
+                alt="heroSliderImage"
+              />
+              </SwiperSlide>
+            </Swiper>
             </div>
           </div>
         </div>
